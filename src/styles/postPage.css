@@ -1,0 +1,180 @@
+/* General Post Page Styling */
+.post-page {
+    background-color: #f0f8ff; /* Light blue sky-like background */
+    font-family: 'Arial', sans-serif;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-title {
+    font-size: 2.5rem;
+    color: #004d40; /* Dark green */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .post-image {
+    width: 400px; /* Fixed width in pixels */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .post-content {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button Styles */
+  .upvote-button,
+  .delete-button,
+  .edit-button {
+    background-color: #f8b400; /* Golden, energizing color */
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .upvote-button:hover,
+  .delete-button:hover,
+  .edit-button:hover {
+    background-color: #ff8c00; /* Darker orange for hover */
+  }
+
+  .save-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .back-to-home-button {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-to-home-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Comment Section Styling */
+  .comments-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .comments-title {
+    font-size: 1.8rem;
+    color: #3e2723; /* Dark brown color */
+    margin-bottom: 1.5rem;
+  }
+  
+  .comments-list {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .comment {
+    background-color: #e0f2f1; /* Light teal */
+    border-left: 5px solid #004d40; /* Dark green border to look like a rock */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .comment p {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Comment Input & Submit Button */
+  .comment-input {
+    width: 90%;
+    height: 100px;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #004d40;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f0f8ff;
+  }
+  
+  .comment-input:focus {
+    outline: none;
+    border-color: #f8b400; /* Golden border on focus */
+  }
+  
+  .submit-comment-button {
+    background-color: #4caf50; /* Green button, symbolizing nature */
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-comment-button:hover {
+    background-color: #388e3c; /* Darker green for hover */
+  }
+
+  .image-url-input {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  /* Editable Post Title */
+.edit-title-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+/* Editable Post Content */
+.edit-content-textarea {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  height: 150px;
+}
+  
